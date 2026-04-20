@@ -1,0 +1,19 @@
+# 虚拟环境
+venv/
+env/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+
+# 本地 IDE 配置（如果不想公开）
+.idea/
+.vscode/
+
+# 模型文件（通常很大，不推荐上传到 Git）
+*.bin
+*.safetensors
+*.pth
+
+# 本地日志文件
+*.log
