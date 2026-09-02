@@ -1,10 +1,9 @@
 import mysql.connector
 
-# 将密码改成你自己的MySQL root密码
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "REMOVED",   # 改这里
+    "password": "REMOVED",
     "database": "ai_service"
 }
 
