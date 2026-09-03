@@ -1,9 +1,10 @@
+import os
 import mysql.connector
 
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "REMOVED",
+    "password": os.environ.get("DB_PASSWORD", ""),
     "database": "ai_service"
 }
 
